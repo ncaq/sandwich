@@ -146,7 +146,6 @@ library
     , unliftio-core
     , vector
     , vty >=6
-    , vty-crossplatform
   default-language: Haskell2010
   if !os(windows)
     build-depends:
@@ -210,7 +209,6 @@ executable sandwich-demo
     , unliftio-core
     , vector
     , vty >=6
-    , vty-crossplatform
   default-language: Haskell2010
   if !os(windows)
     build-depends:
@@ -271,7 +269,6 @@ executable sandwich-discover
     , unliftio-core
     , vector
     , vty >=6
-    , vty-crossplatform
   default-language: Haskell2010
   if !os(windows)
     build-depends:
@@ -337,7 +334,6 @@ executable sandwich-test
     , unliftio-core
     , vector
     , vty >=6
-    , vty-crossplatform
   default-language: Haskell2010
   if !os(windows)
     build-depends:
